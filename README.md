@@ -1,7 +1,11 @@
 # Super-Saiyan-classifier
 Distinguish between Super Saiyan 1,2,3,4 and god using this deep learning model!
 
-I used Google's Inception (2015) model. Inception is a deep convolutional neural network built for classifying real world images of thousand category.
+I used Google's Inception (2015) model. Inception is a deep convolutional neural network built for classifying real world images of thousand categories.
+
+Input to the model: A picture file.
+
+Output of the model: Probability distribution of each saiyan forms.
 
 I retrained it by replacing the Inception's last layer with my Super Saiyan layer.
 Let's see whether or not features in real world are useful for classifying anime
